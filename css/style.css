@@ -1,0 +1,176 @@
+:root {
+  --color-blue: #3c59f2;
+  --color-primary: #4441cf;
+  /* --color-primary: #6a1cc8; */
+  --color-pink: #d52bbd;
+  --color-orange: #fb8919;
+  --color-dark: #07031c;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray: #524f62;
+  --color-dark-gray: #1d1a2d;
+  --color-light-gray: #c0c2c1;
+  --color-dynamic-gray: #bfbfbf;
+}
+
+.window {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 7%;
+  background-color: #fafafc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 15%;
+  border-bottom: 0.5px solid #524f6258;
+}
+.header .headings {
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: #524f62;
+}
+
+.header .isActive {
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
+  line-height: 3.8;
+}
+.topContainer {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  margin-top: 5%;
+  padding: 0% 15%;
+  margin-bottom: 3%;
+}
+
+.topContainer .leftArea {
+  width: 47%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+justify-content: center;}
+
+.topContainer .rightArea {
+  width: 53%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topContainer .rightArea img {
+  width: 70%;
+}
+
+.topContainer .hrSoftwareText {
+  font-size: 1.3rem;
+  color: var(--color-primary);
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2%;
+}
+.topContainer .hrmsSoftwareText {
+  font-size: 2.9rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 5%;
+}
+.topContainer .kekaText {
+  font-size: 1.7rem;
+  color: #524f62;
+  line-height: 1.5;
+}
+.topContainer .button {
+  background-color: var(--color-black);
+  cursor: pointer;
+  width: 32%;
+  height: 10%;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10%;
+  font-size: 1.8rem;
+  color: #fff;
+}
+.humanResourceContainer{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.humanText {
+  font-size: 1.3rem;
+  color: var(--color-primary);
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1%;
+ 
+}
+.stepText {
+  font-size: 3rem;
+  font-weight: 700; 
+  margin-bottom: 2%;
+}
+.withKekaText {
+  font-size: 1.6rem;
+  color: #524f62;
+  line-height: 1.5;
+ 
+  margin-bottom: 4%;
+}
+.img {
+  width: 50%;
+  
+}
+.leftImageContainer {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    padding: 0% 15%;
+  }
+  
+  .leftImageContainer .leftArea {
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;}
+  
+  .leftImageContainer .rightArea {
+    width: 53%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 9%;
+  }
+  
+  .leftImageContainer .leftArea img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .leftImageContainer .hrSoftwareText {
+    font-size: 1.3rem;
+    color: var(--color-primary);
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2%;
+  }
+  .leftImageContainer .hrmsSoftwareText {
+    font-size: 2.9rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 5%;
+  }
+  .leftImageContainer .kekaText {
+    font-size: 1.7rem;
+    color: #524f62;
+    line-height: 1.5;
+  }
