@@ -1,0 +1,261 @@
+:root {
+  --color-blue: #3c59f2;
+  --color-primary: #4441cf;
+  /* --color-primary: #6a1cc8; */
+  --color-pink: #d52bbd;
+  --color-orange: #fb8919;
+  --color-dark: #07031c;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray: #524f62;
+  --color-dark-gray: #1d1a2d;
+  --color-light-gray: #c0c2c1;
+  --color-dynamic-gray: #bfbfbf;
+}
+
+.window {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+}
+.heroContainer {
+  background-image: url("https://blog.efghermes.com/wp-content/uploads/2019/09/Corporate-Life.jpg");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.heroContainer .textContainer {
+  width: 60%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heroContainer .textContainer .heading {
+  font-size: 5rem;
+  color: var(--color-white);
+  font-weight: 620;
+}
+.heroContainer .textContainer .buttonsContainer {
+  width: 45%;
+  height: 23%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.heroContainer .textContainer .buttonsContainer .connectButton {
+  width: 42%;
+  height: 100%;
+  border-radius: 0.6rem;
+  border: none;
+  background-color: var(--color-primary);
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 500;
+}
+.downArrow {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  width: 2.2%;
+}
+
+.hireContainer {
+  width: 63%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 18.5%;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+.hireContainer .leftImageContainer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hireContainer .leftImageContainer .leftArea {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hireContainer .leftImageContainer .rightArea {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.leftImage {
+  width: 97%;
+  height: 88%;
+  border-radius: 0.8rem;
+}
+.heading1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.heading2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 4%;
+}
+.paragraph {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #524f62;
+}
+.anchortag {
+  font-size: 1.6rem;
+  color: var(--color-primary);
+}
+.whoWeAre {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+.numberContainer {
+  width: 63%;
+  height: 20%;
+  margin-left: 18.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+.subContainers {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.numberText {
+  font-size: 7.5rem;
+  font-weight: 600;
+  margin-bottom: 10%;
+}
+.text {
+  font-size: 1.6rem;
+  color: var(--color-light-gray);
+}
+.bottomContainer {
+  width: 63%;
+  height: 60%;
+  margin-left: 18.5%;
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+.bottomContainer .leftArea {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottomContainer .rightArea {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 5%;
+}
+.bottomContainer .leftArea .leftAreaImage {
+  width: 85%;
+}
+.jobRoleContainer {
+  width: 63%;
+  height: 20%;
+  margin-left: 18.5%;
+  margin-top: 5%;
+}
+.jobRole {
+  width: 100%;
+  height: 30%;
+  cursor: pointer;
+}
+.jobRole:hover {
+  background-color: #c0c0c01f;
+}
+.jobRoleText {
+  font-size: 1.6rem;
+  color: #fb8919;
+  margin-bottom: 1%;
+}
+.jobDescription {
+  font-size: 1.2rem;
+}
+.allJobs {
+  width: 15%;
+  height: 25%;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 0.6rem;
+  color: var(--color-white);
+  font-size: 1.1rem;
+  margin-left: 42.5%;
+  margin-top: 5%;
+  cursor: pointer;
+}
+.footerContainer {
+  background-image: url("https://purdueglobalwriting.center/wp-content/uploads/2020/04/gettyimages-677892870.jpg");
+  height: 90%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 5%;
+}
+.footerContainer .textContainer {
+  width: 60%;
+  height: 26%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footerContainer .textContainer .heading {
+  font-size: 4rem;
+  color: var(--color-black);
+  font-weight: 620;
+  margin-bottom: 2%;
+}
+.footerContainer .textContainer .buttonsContainer {
+  width: 45%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+.footerContainer .textContainer .buttonsContainer .connectButton {
+  width: 42%;
+  height: 100%;
+  border-radius: 0.6rem;
+  border: none;
+  background-color: var(--color-primary);
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 500;
+}
