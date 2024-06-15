@@ -1,0 +1,138 @@
+:root {
+  --color-blue: #3c59f2;
+  --color-primary: #4441cf;
+  /* --color-primary: #6a1cc8; */
+  --color-pink: #d52bbd;
+  --color-orange: #fb8919;
+  --color-dark: #07031c;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray: #524f62;
+  --color-dark-gray: #1d1a2d;
+  --color-light-gray: #c0c2c1;
+  --color-dynamic-gray: #bfbfbf;
+}
+
+.window {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 26%;
+}
+.heading{
+font-size: 4rem;
+font-weight: 500;
+margin-bottom: 1.5%;
+margin-top: 2%;
+}
+.paragraph{
+  font-size: 1.3rem;
+  color: #00000092;
+margin-bottom: 1.1%;
+}
+.downloadButton{
+width: 12%;
+height: 20%;
+background-color: var(--color-primary);
+color: #fff;
+font-size: 1rem;
+border-radius: 0.6rem;
+cursor: pointer;
+margin-bottom: 1.1%;
+}
+.belowButtonParagraph{
+  font-size: 1.1rem;
+  color: #00000092;
+}
+.shareLinkContainer{
+  width: 48%;
+  height: 48%;
+  /* background-color: #4441cf; */
+  margin-left: 25%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.leftArea{
+  width: 45%;
+  height: 100%;
+/* background-color: #d52bbd; */
+
+}
+.leftAreaImage{
+  width: 100%;
+}
+.rightArea{
+  width: 52%;
+  height: 100%;
+  /* background-color: #07031c29; */
+  padding-top: 2%;
+}
+.rightArea .heading{
+  font-size: 3.5rem;
+margin-bottom: 5%;
+}
+.rightArea .paragraph{
+  font-size: 1.3rem;
+  color: #00000092;
+  margin-bottom: 7%;
+}
+.chekBoxContainer{
+  display: flex;
+  width: 40%;
+  height: 10%;
+  /* background-color: #3c59f2; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1%;
+}
+.emailCheckBox{
+  font-size: 1.3rem;
+  color: #00000092;
+}
+.enterAndShareContainer{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.emailInput{
+width:65% ;
+height: 100%;
+font-size: 1.3rem;
+padding-left: 3%;
+border-radius: 0.6rem;
+border:1px solid  var(--color-light-gray);
+}
+.shareLinkButton{
+  width: 33%;
+  height: 100%;
+  border-radius: 0.6rem;
+  color: #fff;
+  background-color: var(--color-orange);
+  font-size: 1.3rem;
+  border: none;
+  cursor: pointer;
+}
+.footerText{
+  font-size: 1.1rem;
+  color: #00000092;
+  margin-top: 5%;
+}
+.playAndAppStoreImages{
+  width: 61%;
+  height: 8.8%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.5%;
+}
+.playStore{
+cursor: pointer;
+}

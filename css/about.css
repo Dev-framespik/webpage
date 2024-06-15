@@ -50,7 +50,7 @@
   height: 100%;
   display: flex;
   justify-content: flex-start;
- padding-left: 10%;
+  padding-left: 10%;
 }
 .heroContainer .heroLeftContainer .heading {
   font-size: 4.3rem;
@@ -100,47 +100,48 @@
   justify-content: center;
 }
 
-.circle img{
+.circle img {
   width: 50%;
 }
-.heroBottomContainer .providing .heading{
+.heroBottomContainer .providing .heading {
   font-size: 1.9rem;
   font-weight: 700;
   color: var(--color-black);
- margin-bottom: 2%;
+  margin-bottom: 2%;
 }
-.paragraph{
+.paragraph {
   font-size: 1.2rem;
   color: var(--color-black);
   line-height: 2rem;
 }
-.footerImage{
+.footerImage {
   width: 100%;
   height: 70%;
   position: relative;
   margin-top: 5%;
   /* background-color: #3c59f2; */
 }
-.teamImage{
+.teamImage {
   margin-left: 12%;
   border-radius: 3rem;
   width: 50%;
   height: 100%;
 }
-.videoImage{
+.videoImage {
   position: absolute;
   border-radius: 3rem;
   right: 12%;
- top: 50%;
+  top: 50%;
 
-  border:5px solid #fff;
-  width: 35%;transform: translate(0%, -50%);
+  border: 5px solid #fff;
+  width: 35%;
+  transform: translate(0%, -50%);
 }
-.playButton{
-position: absolute;
-width: 6%;
-left:68%;
-top:50%;
-transform: translate(0%, -50%);
-cursor: pointer;
+.playButton {
+  position: absolute;
+  width: 6%;
+  left: 68%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  cursor: pointer;
 }
